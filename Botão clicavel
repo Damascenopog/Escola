@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>DS102</title>
+</head>
+
+<body>
+    <h1> Tu é otário</h1>
+    <p id="p1"></p>
+    <button onClick="PREENCHE()">Clica aqui seu otário</button>
+    <script>
+        function PREENCHE() {
+            document.getElementById("p1").innerHTML = "Agora tu n é mais otário";
+        }
+    </script>
+
+</body>
+
+</html>
