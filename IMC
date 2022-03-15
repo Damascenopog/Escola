@@ -1,0 +1,16 @@
+print('digite o nome do paciente:')
+paciente1 = input()
+print('digite a altura dele:')
+altura1 = int(input())
+print('digite a massa copórea:')
+massa1 = int(input())
+IMC1 = massa1 / altura1 * altura1
+print('digite o nome do paciente:')
+paciente2 = input()
+print('digite a altura dele:')
+altura2 = int(input())
+print('digite a massa copórea:')
+massa2 = int(input())
+IMC2 = massa2 / altura2 * altura2
+print ('O imc do', paciente1, 'é:', IMC1)
+print ('O imc do', paciente2, 'é:', IMC2 )
